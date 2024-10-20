@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1729415798">
+  <File Type="PA-TCL" Name="fft_soc_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="fft_soc_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="fft_soc_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fft_soc_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="fft_soc_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fft_soc_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fft_soc_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="fft_soc_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="fft_soc_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../twiddle_w_value.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Butterfly.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../fft.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../twiddle_factor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ifft.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/fft_soc/fft_soc.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/fft_soc/hdl/fft_soc_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fft_soc_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_dlmb_v10_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_rst_clk_wiz_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_mdm_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_myip_fft_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_microblaze_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_dlmb_bram_if_cntlr_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_ilmb_v10_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_ilmb_bram_if_cntlr_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_lmb_bram_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fft_soc_axi_uartlite_0_0"/>
+</GenRun>

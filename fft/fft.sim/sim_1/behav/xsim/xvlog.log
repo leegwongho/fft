@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/twiddle_w_value.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twiddle_w_value
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/Butterfly.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Butterfly
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg8
+INFO: [VRFC 10-311] analyzing module reg4
+INFO: [VRFC 10-311] analyzing module reg2
+INFO: [VRFC 10-311] analyzing module reg1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/fft.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_fft
+INFO: [VRFC 10-2458] undeclared symbol in_m_s3, assumed default net type wire [C:/Users/sunda/Desktop/fft/fft.v:138]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/twiddle_factor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twiddle_factor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/ifft.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_ifft
+INFO: [VRFC 10-2458] undeclared symbol in_m_s3, assumed default net type wire [C:/Users/sunda/Desktop/fft/ifft.v:138]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunda/Desktop/fft/tb_FFT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fft
+INFO: [VRFC 10-311] analyzing module tb_ifft

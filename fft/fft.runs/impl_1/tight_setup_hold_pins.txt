@@ -1,0 +1,7 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out1_fft_soc_clk_wiz_0_0 |clk_out1_fft_soc_clk_wiz_0_0 |      fft_soc_i/myip_fft_0/inst/myip_fft_v1_0_S00_AXI_inst/DUT/second_stage_reg1/fft_output_1clk_reg[20]/D|
+| clk_out1_fft_soc_clk_wiz_0_0 |clk_out1_fft_soc_clk_wiz_0_0 |       fft_soc_i/myip_fft_0/inst/myip_fft_v1_0_S00_AXI_inst/DUT/third_stage_reg1/fft_output_1clk_reg[13]/D|
+| clk_out1_fft_soc_clk_wiz_0_0 |clk_out1_fft_soc_clk_wiz_0_0 |      fft_soc_i/myip_fft_0/inst/myip_fft_v1_0_S00_AXI_inst/DUT/second_stage_reg1/fft_output_1clk_reg[13]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,41 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto d97da5c253414dc7817e4c7fd64affc7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ifft_behav xil_defaultlib.tb_ifft xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/ifft.v" Line 1. Module top_ifft doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 84. Module reg1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 1. Module reg8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/Butterfly.v" Line 1. Module Butterfly doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/twiddle_factor.v" Line 1. Module twiddle_factor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/twiddle_w_value.v" Line 1. Module twiddle_w_value doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 84. Module reg1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 36. Module reg4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/Butterfly.v" Line 1. Module Butterfly doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/twiddle_factor.v" Line 1. Module twiddle_factor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/twiddle_w_value.v" Line 1. Module twiddle_w_value doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 84. Module reg1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 61. Module reg2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/Butterfly.v" Line 1. Module Butterfly doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/twiddle_factor.v" Line 1. Module twiddle_factor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/twiddle_w_value.v" Line 1. Module twiddle_w_value doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 84. Module reg1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 84. Module reg1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/Butterfly.v" Line 1. Module Butterfly doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sunda/Desktop/fft/reg.v" Line 84. Module reg1 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.reg1
+Compiling module xil_defaultlib.reg8
+Compiling module xil_defaultlib.Butterfly
+Compiling module xil_defaultlib.twiddle_factor
+Compiling module xil_defaultlib.twiddle_w_value
+Compiling module xil_defaultlib.reg4
+Compiling module xil_defaultlib.reg2
+Compiling module xil_defaultlib.top_ifft
+Compiling module xil_defaultlib.tb_ifft
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ifft_behav

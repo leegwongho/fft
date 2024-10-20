@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/sunda/Desktop/fft/Butterfly.v,1729348316,verilog,,C:/Users/sunda/Desktop/fft/reg.v,,Butterfly,,,,,,,,
+C:/Users/sunda/Desktop/fft/fft.v,1729409975,verilog,,C:/Users/sunda/Desktop/fft/twiddle_factor.v,,top_fft,,,,,,,,
+C:/Users/sunda/Desktop/fft/fft/fft.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/sunda/Desktop/fft/ifft.v,1729413549,verilog,,C:/Users/sunda/Desktop/fft/tb_FFT.v,,top_ifft,,,,,,,,
+C:/Users/sunda/Desktop/fft/reg.v,1729348311,verilog,,C:/Users/sunda/Desktop/fft/fft.v,,reg1;reg2;reg4;reg8,,,,,,,,
+C:/Users/sunda/Desktop/fft/tb_FFT.v,1729413274,verilog,,,,tb_fft;tb_ifft,,,,,,,,
+C:/Users/sunda/Desktop/fft/twiddle_factor.v,1729348310,verilog,,C:/Users/sunda/Desktop/fft/ifft.v,,twiddle_factor,,,,,,,,
+C:/Users/sunda/Desktop/fft/twiddle_w_value.v,1729325335,verilog,,C:/Users/sunda/Desktop/fft/Butterfly.v,,twiddle_w_value,,,,,,,,
